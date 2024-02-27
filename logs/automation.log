@@ -1,0 +1,6 @@
+16:43:23.720 [main] INFO  testBase.BaseClass - Loan Emi slider is verified
+16:43:23.764 [main] INFO  testBase.BaseClass - Loan Interest textbox is verified
+16:43:23.797 [main] INFO  testBase.BaseClass - Loan Interest slider is verified
+16:43:23.833 [main] INFO  testBase.BaseClass - Loan fees textbox is verified
+16:43:23.867 [main] INFO  testBase.BaseClass - Loan fees slider is verified
+16:43:23.868 [main] INFO  testBase.BaseClass - *****Finished TC_003_LoanCalculator *****

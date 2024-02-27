@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2304077\eclipse-workspace\Hackathon_project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="CarLoanAmount">CarLoanAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="InterestRate">InterestRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="LoanTenure">LoanTenure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="checkEmiUI">checkEmiUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="checkEmiscale">checkEmiscale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="checkLoanAmountCalculatorUI">checkLoanAmountCalculatorUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="checkLoanAmountscale">checkLoanAmountscale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="checkLoanTenureCalculatorUI">checkLoanTenureCalculatorUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="clickEmiAdvance">clickEmiAdvance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="clickEmiArrears">clickEmiArrears</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="clickHomeLoan">clickHomeLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="clickLoanAmountCalculator">clickLoanAmountCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="clickLoanCalculator">clickLoanCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_003_LoanCalculator" class="method navigator-link" hash-for-method="clickLoanTenureCalculator">clickLoanTenureCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="clickcarLoan">clickcarLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="handletableheader">handletableheader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="interestAdvanceCarLoanPage">interestAdvanceCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="interestArrearsCarLoanPage">interestArrearsCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="monthlyPaymentDisplayed">monthlyPaymentDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="pagetop">pagetop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="principalAmountAdvanceCarLoanPage">principalAmountAdvanceCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="principalAmountArrearsCarLoanPage">principalAmountArrearsCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="scrollDownAdvanceCarLoanPage">scrollDownAdvanceCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="scrollDownArrearsCarLoanPage">scrollDownArrearsCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="scrollHomeLoanPage">scrollHomeLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="scrollUpCarLoanPage">scrollUpCarLoanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="scrollUpPage">scrollUpPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="setHomeLoanValues">setHomeLoanValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="table">table</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_002_HomeLoan" class="method navigator-link" hash-for-method="totalPaymentDisplayed">totalPaymentDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="validateCarLoanAmount">validateCarLoanAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="validateInterestRate">validateInterestRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC_001_Carloan" class="method navigator-link" hash-for-method="validateLoanTenure">validateLoanTenure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_001_Carloan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CarLoanAmount">
+                  </a> <!-- CarLoanAmount -->
+                  <span class="method-name">CarLoanAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InterestRate">
+                  </a> <!-- InterestRate -->
+                  <span class="method-name">InterestRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoanTenure">
+                  </a> <!-- LoanTenure -->
+                  <span class="method-name">LoanTenure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickEmiAdvance">
+                  </a> <!-- clickEmiAdvance -->
+                  <span class="method-name">clickEmiAdvance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickEmiArrears">
+                  </a> <!-- clickEmiArrears -->
+                  <span class="method-name">clickEmiArrears</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickcarLoan">
+                  </a> <!-- clickcarLoan -->
+                  <span class="method-name">clickcarLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interestAdvanceCarLoanPage">
+                  </a> <!-- interestAdvanceCarLoanPage -->
+                  <span class="method-name">interestAdvanceCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="interestArrearsCarLoanPage">
+                  </a> <!-- interestArrearsCarLoanPage -->
+                  <span class="method-name">interestArrearsCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="principalAmountAdvanceCarLoanPage">
+                  </a> <!-- principalAmountAdvanceCarLoanPage -->
+                  <span class="method-name">principalAmountAdvanceCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="principalAmountArrearsCarLoanPage">
+                  </a> <!-- principalAmountArrearsCarLoanPage -->
+                  <span class="method-name">principalAmountArrearsCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollDownAdvanceCarLoanPage">
+                  </a> <!-- scrollDownAdvanceCarLoanPage -->
+                  <span class="method-name">scrollDownAdvanceCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollDownArrearsCarLoanPage">
+                  </a> <!-- scrollDownArrearsCarLoanPage -->
+                  <span class="method-name">scrollDownArrearsCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollUpCarLoanPage">
+                  </a> <!-- scrollUpCarLoanPage -->
+                  <span class="method-name">scrollUpCarLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollUpPage">
+                  </a> <!-- scrollUpPage -->
+                  <span class="method-name">scrollUpPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCarLoanAmount">
+                  </a> <!-- validateCarLoanAmount -->
+                  <span class="method-name">validateCarLoanAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateInterestRate">
+                  </a> <!-- validateInterestRate -->
+                  <span class="method-name">validateInterestRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoanTenure">
+                  </a> <!-- validateLoanTenure -->
+                  <span class="method-name">validateLoanTenure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_002_HomeLoan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickHomeLoan">
+                  </a> <!-- clickHomeLoan -->
+                  <span class="method-name">clickHomeLoan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="handletableheader">
+                  </a> <!-- handletableheader -->
+                  <span class="method-name">handletableheader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="monthlyPaymentDisplayed">
+                  </a> <!-- monthlyPaymentDisplayed -->
+                  <span class="method-name">monthlyPaymentDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pagetop">
+                  </a> <!-- pagetop -->
+                  <span class="method-name">pagetop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollHomeLoanPage">
+                  </a> <!-- scrollHomeLoanPage -->
+                  <span class="method-name">scrollHomeLoanPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setHomeLoanValues">
+                  </a> <!-- setHomeLoanValues -->
+                  <span class="method-name">setHomeLoanValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="table">
+                  </a> <!-- table -->
+                  <span class="method-name">table</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalPaymentDisplayed">
+                  </a> <!-- totalPaymentDisplayed -->
+                  <span class="method-name">totalPaymentDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_003_LoanCalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmiUI">
+                  </a> <!-- checkEmiUI -->
+                  <span class="method-name">checkEmiUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmiscale">
+                  </a> <!-- checkEmiscale -->
+                  <span class="method-name">checkEmiscale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoanAmountCalculatorUI">
+                  </a> <!-- checkLoanAmountCalculatorUI -->
+                  <span class="method-name">checkLoanAmountCalculatorUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoanAmountscale">
+                  </a> <!-- checkLoanAmountscale -->
+                  <span class="method-name">checkLoanAmountscale</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoanTenureCalculatorUI">
+                  </a> <!-- checkLoanTenureCalculatorUI -->
+                  <span class="method-name">checkLoanTenureCalculatorUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLoanAmountCalculator">
+                  </a> <!-- clickLoanAmountCalculator -->
+                  <span class="method-name">clickLoanAmountCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLoanCalculator">
+                  </a> <!-- clickLoanCalculator -->
+                  <span class="method-name">clickLoanCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLoanTenureCalculator">
+                  </a> <!-- clickLoanTenureCalculator -->
+                  <span class="method-name">clickLoanTenureCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2304077\eclipse-workspace\Hackathon_project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC_001_Carloan&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_002_HomeLoan&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_003_LoanCalculator&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chromeTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickHomeLoan')
+data.setCell(0, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(0, 3, 131495);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickLoanCalculator')
+data.setCell(1, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(1, 3, 77945);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'table')
+data.setCell(2, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(2, 3, 8022);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'setHomeLoanValues')
+data.setCell(3, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(3, 3, 3164);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'handletableheader')
+data.setCell(4, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(4, 3, 2131);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickcarLoan')
+data.setCell(5, 2, 'testCases.TC_001_Carloan')
+data.setCell(5, 3, 1607);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'InterestRate')
+data.setCell(6, 2, 'testCases.TC_001_Carloan')
+data.setCell(6, 3, 699);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CarLoanAmount')
+data.setCell(7, 2, 'testCases.TC_001_Carloan')
+data.setCell(7, 3, 469);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoanTenure')
+data.setCell(8, 2, 'testCases.TC_001_Carloan')
+data.setCell(8, 3, 300);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkLoanTenureCalculatorUI')
+data.setCell(9, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(9, 3, 290);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkLoanAmountCalculatorUI')
+data.setCell(10, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(10, 3, 285);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkLoanAmountscale')
+data.setCell(11, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(11, 3, 277);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkEmiUI')
+data.setCell(12, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(12, 3, 250);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'interestArrearsCarLoanPage')
+data.setCell(13, 2, 'testCases.TC_001_Carloan')
+data.setCell(13, 3, 194);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkEmiscale')
+data.setCell(14, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(14, 3, 165);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'interestAdvanceCarLoanPage')
+data.setCell(15, 2, 'testCases.TC_001_Carloan')
+data.setCell(15, 3, 141);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'monthlyPaymentDisplayed')
+data.setCell(16, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(16, 3, 129);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickEmiArrears')
+data.setCell(17, 2, 'testCases.TC_001_Carloan')
+data.setCell(17, 3, 115);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickEmiAdvance')
+data.setCell(18, 2, 'testCases.TC_001_Carloan')
+data.setCell(18, 3, 112);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'principalAmountAdvanceCarLoanPage')
+data.setCell(19, 2, 'testCases.TC_001_Carloan')
+data.setCell(19, 3, 106);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickLoanTenureCalculator')
+data.setCell(20, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(20, 3, 102);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'clickLoanAmountCalculator')
+data.setCell(21, 2, 'testCases.TC_003_LoanCalculator')
+data.setCell(21, 3, 88);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'totalPaymentDisplayed')
+data.setCell(22, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(22, 3, 84);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'scrollUpPage')
+data.setCell(23, 2, 'testCases.TC_001_Carloan')
+data.setCell(23, 3, 49);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'scrollUpCarLoanPage')
+data.setCell(24, 2, 'testCases.TC_001_Carloan')
+data.setCell(24, 3, 42);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'scrollDownArrearsCarLoanPage')
+data.setCell(25, 2, 'testCases.TC_001_Carloan')
+data.setCell(25, 3, 42);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'principalAmountArrearsCarLoanPage')
+data.setCell(26, 2, 'testCases.TC_001_Carloan')
+data.setCell(26, 3, 42);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'scrollDownAdvanceCarLoanPage')
+data.setCell(27, 2, 'testCases.TC_001_Carloan')
+data.setCell(27, 3, 40);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'scrollHomeLoanPage')
+data.setCell(28, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(28, 3, 35);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'pagetop')
+data.setCell(29, 2, 'testCases.TC_002_HomeLoan')
+data.setCell(29, 3, 33);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateCarLoanAmount')
+data.setCell(30, 2, 'testCases.TC_001_Carloan')
+data.setCell(30, 3, 7);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateInterestRate')
+data.setCell(31, 2, 'testCases.TC_001_Carloan')
+data.setCell(31, 3, 4);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateLoanTenure')
+data.setCell(32, 2, 'testCases.TC_001_Carloan')
+data.setCell(32, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_002_HomeLoan</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.TC_003_LoanCalculator</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_001_Carloan</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">clickcarLoan</span>
+                <span class="method-start">85329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CarLoanAmount</span>
+                <span class="method-start">87393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCarLoanAmount</span>
+                <span class="method-start">88156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InterestRate</span>
+                <span class="method-start">88460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateInterestRate</span>
+                <span class="method-start">89411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoanTenure</span>
+                <span class="method-start">89660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoanTenure</span>
+                <span class="method-start">90229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickEmiArrears</span>
+                <span class="method-start">90482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollDownArrearsCarLoanPage</span>
+                <span class="method-start">90856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">interestArrearsCarLoanPage</span>
+                <span class="method-start">91193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">principalAmountArrearsCarLoanPage</span>
+                <span class="method-start">91730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollUpCarLoanPage</span>
+                <span class="method-start">91944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickEmiAdvance</span>
+                <span class="method-start">92128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollDownAdvanceCarLoanPage</span>
+                <span class="method-start">92487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">interestAdvanceCarLoanPage</span>
+                <span class="method-start">92722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">principalAmountAdvanceCarLoanPage</span>
+                <span class="method-start">93125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollUpPage</span>
+                <span class="method-start">93415 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_002_HomeLoan</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickHomeLoan</span>
+                <span class="method-start">93654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setHomeLoanValues</span>
+                <span class="method-start">225404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">monthlyPaymentDisplayed</span>
+                <span class="method-start">228855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">totalPaymentDisplayed</span>
+                <span class="method-start">229232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollHomeLoanPage</span>
+                <span class="method-start">229484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">handletableheader</span>
+                <span class="method-start">229672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">table</span>
+                <span class="method-start">232036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pagetop</span>
+                <span class="method-start">240207 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_003_LoanCalculator</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickLoanCalculator</span>
+                <span class="method-start">240447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEmiUI</span>
+                <span class="method-start">318596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkEmiscale</span>
+                <span class="method-start">319009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickLoanAmountCalculator</span>
+                <span class="method-start">319340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoanAmountCalculatorUI</span>
+                <span class="method-start">319689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoanAmountscale</span>
+                <span class="method-start">320164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickLoanTenureCalculator</span>
+                <span class="method-start">320618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkLoanTenureCalculatorUI</span>
+                <span class="method-start">320945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC_001_Carloan</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">321413 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

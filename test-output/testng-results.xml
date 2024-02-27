@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T16:38:01 IST" name="Suite" finished-at="2024-02-27T16:43:25 IST" duration-ms="323368">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T16:38:01 IST" name="chromeTest" finished-at="2024-02-27T16:43:25 IST" duration-ms="323368">
+      <class name="testCases.TC_001_Carloan">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:38:02 IST" name="setup" finished-at="2024-02-27T16:39:27 IST" duration-ms="85276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickcarLoan()[pri:1, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:27 IST" name="clickcarLoan" finished-at="2024-02-27T16:39:29 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcarLoan -->
+        <test-method signature="CarLoanAmount()[pri:2, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:30 IST" name="CarLoanAmount" finished-at="2024-02-27T16:39:30 IST" depends-on-methods="testCases.TC_001_Carloan.clickcarLoan" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanAmount -->
+        <test-method signature="validateCarLoanAmount()[pri:3, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:30 IST" name="validateCarLoanAmount" finished-at="2024-02-27T16:39:30 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCarLoanAmount -->
+        <test-method signature="InterestRate()[pri:4, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:31 IST" name="InterestRate" finished-at="2024-02-27T16:39:31 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterestRate -->
+        <test-method signature="validateInterestRate()[pri:5, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:32 IST" name="validateInterestRate" finished-at="2024-02-27T16:39:32 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRate -->
+        <test-method signature="LoanTenure()[pri:6, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:32 IST" name="LoanTenure" finished-at="2024-02-27T16:39:32 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTenure -->
+        <test-method signature="validateLoanTenure()[pri:7, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:32 IST" name="validateLoanTenure" finished-at="2024-02-27T16:39:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenure -->
+        <test-method signature="clickEmiArrears()[pri:8, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:33 IST" name="clickEmiArrears" finished-at="2024-02-27T16:39:33 IST" depends-on-methods="testCases.TC_001_Carloan.LoanTenure" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEmiArrears -->
+        <test-method signature="scrollDownArrearsCarLoanPage()[pri:9, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:33 IST" name="scrollDownArrearsCarLoanPage" finished-at="2024-02-27T16:39:33 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownArrearsCarLoanPage -->
+        <test-method signature="interestArrearsCarLoanPage()[pri:10, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:33 IST" name="interestArrearsCarLoanPage" finished-at="2024-02-27T16:39:34 IST" depends-on-methods="testCases.TC_001_Carloan.scrollDownArrearsCarLoanPage" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestArrearsCarLoanPage -->
+        <test-method signature="principalAmountArrearsCarLoanPage()[pri:11, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:34 IST" name="principalAmountArrearsCarLoanPage" finished-at="2024-02-27T16:39:34 IST" depends-on-methods="testCases.TC_001_Carloan.scrollDownArrearsCarLoanPage" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- principalAmountArrearsCarLoanPage -->
+        <test-method signature="scrollUpCarLoanPage()[pri:12, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:34 IST" name="scrollUpCarLoanPage" finished-at="2024-02-27T16:39:34 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUpCarLoanPage -->
+        <test-method signature="clickEmiAdvance()[pri:13, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:34 IST" name="clickEmiAdvance" finished-at="2024-02-27T16:39:34 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEmiAdvance -->
+        <test-method signature="scrollDownAdvanceCarLoanPage()[pri:14, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:35 IST" name="scrollDownAdvanceCarLoanPage" finished-at="2024-02-27T16:39:35 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDownAdvanceCarLoanPage -->
+        <test-method signature="interestAdvanceCarLoanPage()[pri:15, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:35 IST" name="interestAdvanceCarLoanPage" finished-at="2024-02-27T16:39:35 IST" depends-on-methods="testCases.TC_001_Carloan.scrollDownAdvanceCarLoanPage" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestAdvanceCarLoanPage -->
+        <test-method signature="principalAmountAdvanceCarLoanPage()[pri:16, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:35 IST" name="principalAmountAdvanceCarLoanPage" finished-at="2024-02-27T16:39:35 IST" depends-on-methods="testCases.TC_001_Carloan.scrollDownAdvanceCarLoanPage" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- principalAmountAdvanceCarLoanPage -->
+        <test-method signature="scrollUpPage()[pri:17, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:39:36 IST" name="scrollUpPage" finished-at="2024-02-27T16:39:36 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUpPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_Carloan@79079097]" started-at="2024-02-27T16:43:24 IST" name="tearDown" finished-at="2024-02-27T16:43:25 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_Carloan -->
+      <class name="testCases.TC_002_HomeLoan">
+        <test-method signature="clickHomeLoan()[pri:18, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:39:36 IST" name="clickHomeLoan" finished-at="2024-02-27T16:41:47 IST" duration-ms="131495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHomeLoan -->
+        <test-method signature="setHomeLoanValues()[pri:19, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:48 IST" name="setHomeLoanValues" finished-at="2024-02-27T16:41:51 IST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomeLoanValues -->
+        <test-method signature="monthlyPaymentDisplayed()[pri:20, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:51 IST" name="monthlyPaymentDisplayed" finished-at="2024-02-27T16:41:51 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monthlyPaymentDisplayed -->
+        <test-method signature="totalPaymentDisplayed()[pri:21, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:51 IST" name="totalPaymentDisplayed" finished-at="2024-02-27T16:41:51 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalPaymentDisplayed -->
+        <test-method signature="scrollHomeLoanPage()[pri:22, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:52 IST" name="scrollHomeLoanPage" finished-at="2024-02-27T16:41:52 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollHomeLoanPage -->
+        <test-method signature="handletableheader()[pri:23, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:52 IST" name="handletableheader" finished-at="2024-02-27T16:41:54 IST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handletableheader -->
+        <test-method signature="table()[pri:24, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:41:54 IST" name="table" finished-at="2024-02-27T16:42:02 IST" duration-ms="8022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+        <test-method signature="pagetop()[pri:25, instance:testCases.TC_002_HomeLoan@2cd76f31]" started-at="2024-02-27T16:42:02 IST" name="pagetop" finished-at="2024-02-27T16:42:02 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetop -->
+      </class> <!-- testCases.TC_002_HomeLoan -->
+      <class name="testCases.TC_003_LoanCalculator">
+        <test-method signature="clickLoanCalculator()[pri:26, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:42:03 IST" name="clickLoanCalculator" finished-at="2024-02-27T16:43:21 IST" duration-ms="77945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanCalculator -->
+        <test-method signature="checkEmiUI()[pri:27, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:21 IST" name="checkEmiUI" finished-at="2024-02-27T16:43:21 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmiUI -->
+        <test-method signature="checkEmiscale()[pri:28, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:21 IST" name="checkEmiscale" finished-at="2024-02-27T16:43:21 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmiscale -->
+        <test-method signature="clickLoanAmountCalculator()[pri:29, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:21 IST" name="clickLoanAmountCalculator" finished-at="2024-02-27T16:43:22 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanAmountCalculator -->
+        <test-method signature="checkLoanAmountCalculatorUI()[pri:30, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:22 IST" name="checkLoanAmountCalculatorUI" finished-at="2024-02-27T16:43:22 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanAmountCalculatorUI -->
+        <test-method signature="checkLoanAmountscale()[pri:31, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:22 IST" name="checkLoanAmountscale" finished-at="2024-02-27T16:43:23 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanAmountscale -->
+        <test-method signature="clickLoanTenureCalculator()[pri:32, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:23 IST" name="clickLoanTenureCalculator" finished-at="2024-02-27T16:43:23 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoanTenureCalculator -->
+        <test-method signature="checkLoanTenureCalculatorUI()[pri:33, instance:testCases.TC_003_LoanCalculator@367ffa75]" started-at="2024-02-27T16:43:23 IST" name="checkLoanTenureCalculatorUI" finished-at="2024-02-27T16:43:23 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanTenureCalculatorUI -->
+      </class> <!-- testCases.TC_003_LoanCalculator -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
